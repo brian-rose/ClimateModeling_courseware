@@ -2,7 +2,7 @@
 Climate Modeling Courseware
 ================
 ----------
- A collection of interactive lecture notes and assignments for a graduate level course
+ A collection of interactive lecture notes and assignments for a graduate level course on understanding the climate system through hands-on use of climate models
 ----------
 
 Author
