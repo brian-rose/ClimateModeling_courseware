@@ -2,7 +2,7 @@
 Climate Modeling Courseware
 ================
 ----------
- A collection of interactive lecture notes and assignments for a graduate level course on understanding the climate system through hands-on use of climate models
+ A collection of interactive lecture notes and assignments for a graduate level climate modeling course
 ----------
 
 Author
@@ -15,6 +15,9 @@ Author
 
 About 
 --------------
+ATM 623 Climate Modeling
+is an advanced graduate course on climate dynamics and climate modeling. The focus of the course is on the hands-on use of both simple and complex climate models to build understanding of the processes that control the planetary energy budget.
+
 The course makes extensive use of Python code and the IPython notebook for reproducible, self-describing calculations and figures. This repository contains a collection of linked IPython notebooks with lecture notes, examples and assignments. All notebooks are self-describing.
 
 Requirements
