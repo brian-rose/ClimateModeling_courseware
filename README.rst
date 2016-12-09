@@ -33,13 +33,13 @@ The complete list of packages used in these notes includes:
 - netCDF4
 - sympy
 
-which are all available through conda.
+which are all available through ``conda``.
 
 Additionally these notes rely heavily on the custom climlab_ package (a computational engine for process-oriented climate modeling). See the documentation_ or the `github page`_ for installation instructions.
 
 Optional:
 
-- The `version_information` extension (to display details about package versions used in each notebook). Install via `pip install version_information`
+- The ``version_information`` extension (to display details about package versions used in each notebook). Install via ``pip install version_information``
 
 
 Usage
