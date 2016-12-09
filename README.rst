@@ -25,20 +25,22 @@ Requirements
 You will need a scientific Python distribution. Anaconda Python is strongly recommended and will get you almost everything you need all at once.
 
 The complete list of packages used in these notes includes:
+
 - numpy
 - scipy
 - matplotlib
 - IPython
 - netCDF4
 - sympy
+
 which are all available through conda.
 
 Additionally these notes rely heavily on the custom climlab_ package (a computational engine for process-oriented climate modeling). See the documentation_ or the `github page`_ for installation instructions.
 
 Optional:
+
 - The `version_information` extension (to display details about package versions used in each notebook). Install via `pip install version_information`
 
-distribution available on your system, including numpy, scipy and IPython (version 2.0 or higher is recommended for the latest interactive notebook features).
 
 Usage
 ------------------
