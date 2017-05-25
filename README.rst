@@ -22,25 +22,28 @@ The course makes extensive use of Python code and the Jupyter notebook for repro
 
 Requirements
 ---------------
-You will need a scientific Python distribution. Anaconda Python is strongly recommended and will get you almost everything you need all at once.
+You will need a scientific Python distribution. Anaconda Python is strongly recommended and will get you everything you need all at once.
 
 The complete list of packages used in these notes includes:
 
+- Python 2.7
 - numpy
 - scipy
 - matplotlib
-- IPython
-- netCDF4
 - sympy
+- xarray
+- climlab (climate modeling engine)
+- ffmpeg (video conversion tool used under-the-hood for interactive animations)
+- version_information (display information about package versions)
 
-which are all available through ``conda``.
+which are all available through ``conda`` on the ``conda-forge`` channel.
 
-Additionally these notes rely heavily on the custom climlab_ package (a computational engine for process-oriented climate modeling). See the documentation_ or the `github page`_ for installation instructions.
+These notes rely heavily on the custom climlab_ package (a computational engine for process-oriented climate modeling). See the documentation_ or the `github page`_ for installation instructions.
 
-Optional:
+The following commands will create a self-contained conda environment with everything you need to run these notebooks (Mac, Linux and Windows)::
 
-- The ``version_information`` extension (to display details about package versions used in each notebook). Install via ``pip install version_information``
-
+    conda config --add channels conda-forge
+    conda create --name atm623 python=2.7 jupyter xarray sympy climlab version_information ffmpeg
 
 Usage
 ------------------
