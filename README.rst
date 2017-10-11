@@ -26,7 +26,7 @@ You will need a scientific Python distribution. Anaconda Python is strongly reco
 
 The complete list of packages used in these notes includes:
 
-- Python 2.7
+- Python (compatible with both Python 2 and 3)
 - numpy
 - scipy
 - matplotlib
@@ -43,7 +43,7 @@ These notes rely heavily on the custom climlab_ package (a computational engine 
 The following commands will create a self-contained conda environment with everything you need to run these notebooks (Mac, Linux and Windows)::
 
     conda config --add channels conda-forge
-    conda create --name atm623 python=2.7 jupyter xarray sympy climlab version_information ffmpeg
+    conda create --name atm623 python jupyter xarray sympy climlab version_information ffmpeg
 
 Usage
 ------------------
