@@ -5,6 +5,14 @@ Climate Modeling Courseware
  A collection of interactive lecture notes and assignments for a graduate level climate modeling course
 ----------
 
+.. image:: https://mybinder.org/badge.svg :target: https://mybinder.org/v2/gh/brian-rose/ClimateModeling_courseware/master
+
+Quickstart
+--------------
+Just click on the Binder badge above to run these notebooks interactively in the cloud!
+
+Or clone the repo and run on your own machine (details below).
+
 Author
 --------------
 | **Brian E. J. Rose**
@@ -40,10 +48,10 @@ which are all available through ``conda`` on the ``conda-forge`` channel.
 
 These notes rely heavily on the custom climlab_ package (a computational engine for process-oriented climate modeling). See the documentation_ or the `github page`_ for installation instructions.
 
-The following commands will create a self-contained conda environment with everything you need to run these notebooks (Mac, Linux and Windows)::
+The following commands will create a self-contained conda environment with everything you need to run these notebooks (Mac, Linux and Windows).
+From within the ``ClimateModeling_courseware`` directory, do this::
 
-    conda config --add channels conda-forge
-    conda create --name atm623 python jupyter xarray sympy climlab version_information ffmpeg
+    conda env create --name atm623 --file environment.yml
 
 Usage
 ------------------
