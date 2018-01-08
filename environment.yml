@@ -1,6 +1,7 @@
 channels:
   - conda-forge
   - defaults
+  - damianavila82
 dependencies:
   - python
   - numpy
@@ -11,3 +12,4 @@ dependencies:
   - jupyter
   - climlab
   - version_information
+  - rise
