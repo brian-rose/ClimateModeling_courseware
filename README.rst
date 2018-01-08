@@ -5,7 +5,7 @@ Climate Modeling Courseware
  A collection of interactive lecture notes and assignments for a graduate level climate modeling course
 ----------
 
-.. image:: https://mybinder.org/badge.svg :target: https://mybinder.org/v2/gh/brian-rose/ClimateModeling_courseware/master
+|binder|
 
 Quickstart
 --------------
@@ -74,3 +74,6 @@ Comments by email are always appreciated.
 .. _climlab: https://github.com/brian-rose/climlab
 .. _documentation: http://climlab.readthedocs.io
 .. _`github page`: https://github.com/brian-rose/climlab
+
+.. |binder| image:: https://mybinder.org/badge.svg
+  :target: https://mybinder.org/v2/gh/brian-rose/ClimateModeling_courseware/master
