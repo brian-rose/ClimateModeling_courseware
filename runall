@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=None Lectures/Lecture*.ipynb
+rm Lectures/Lecture*nbconvert.ipynb
+jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=None Assignments/Assignment*.ipynb
+rm Assignments/Assignment*nbconvert.ipynb
+
