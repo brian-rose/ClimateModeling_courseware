@@ -1,16 +1,19 @@
+name: climlab-courseware
 channels:
   - conda-forge
   - defaults
-  - damianavila82
 dependencies:
   - python
   - numpy
   - matplotlib
   - xarray
   - metpy
+  - cartopy
   - sympy
   - ffmpeg
   - jupyter
-  - climlab
+  - climlab>=0.7.5
   - version_information
   - rise
+  - numba>=0.43.1
+  - netcdf4
