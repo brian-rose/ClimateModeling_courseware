@@ -6,14 +6,14 @@ dependencies:
   - python
   - numpy
   - matplotlib
-  - xarray
+  - xarray<=0.12.1  # until metpy bug is resolved https://github.com/Unidata/MetPy/issues/1077
   - metpy
   - cartopy
   - sympy
   - ffmpeg
   - jupyter
-  - climlab>=0.7.5
+  - climlab>=0.7.5  # older versions in 0.7 series had some bugs in diffusion diagnostics
   - version_information
   - rise
-  - numba>=0.43.1
+  - numba>=0.43.1  # older version will hang forever under python 3, https://github.com/brian-rose/climlab/issues/101
   - netcdf4

@@ -30,50 +30,54 @@ The course makes extensive use of Python code and the Jupyter notebook for repro
 
 Requirements
 ---------------
-You will need a scientific Python distribution. Anaconda Python is strongly recommended and will get you everything you need all at once.
+You will need a scientific Python distribution. Anaconda Python is strongly recommended.
 
 The complete list of packages used in these notes includes:
 
-- Python (compatible with both Python 2 and 3)
-- numpy
-- scipy
-- matplotlib
-- sympy
-- xarray
-- climlab (climate modeling engine)
-- ffmpeg (video conversion tool used under-the-hood for interactive animations)
-- version_information (display information about package versions)
+- python      (versions 2.7, 3.6, 3.7 should all work)
+- numpy       (base numerics)
+- scipy       (general math/sci utilities)
+- matplotlib  (graphics)
+- xarray      (labeled data structures)
+- metpy       (meteorological utilities)
+- cartopy     (mapping)
+- sympy       (symbolic math)
+- climlab     (climate modeling engine)
+- ffmpeg      (video conversion tool used under-the-hood for interactive animations)
+- version_information  (display information about package versions)
+- rise        (render slides as live slide shows)
 
-which are all available through ``conda`` on the ``conda-forge`` channel.
+which are all available through ``conda`` on the ``conda-forge`` channel (see below).
 
-These notes rely heavily on the custom climlab_ package (a computational engine for process-oriented climate modeling). See the documentation_ or the `github page`_ for installation instructions.
-
-The following commands will create a self-contained conda environment with everything you need to run these notebooks (Mac, Linux and Windows).
-From within the ``ClimateModeling_courseware`` directory, do this::
-
-    conda env create --name atm623 --file environment.yml
+These notes rely heavily on the custom climlab_ package
+(a computational engine for process-oriented climate modeling).
+See the documentation_ or the `github page`_ for installation instructions.
 
 Usage
-------------------
-From the main courseware directory, just enter
+------
 
-``jupyter notebook``
+The following commands will create a self-contained conda environment
+with everything you need to run these notebooks (Mac, Linux and Windows).
+From within the ``ClimateModeling_courseware`` directory
+in your favorite terminal, do this::
 
-or
+    conda env create --file environment.yml
+    conda activate climlab-courseware
+    jupyter notebook
 
-``jupyter notebook index.ipynb``
-
-from your favorite terminal.
 
 License
 ---------------
 The notes and code are freely available under the MIT license.
 See the accompanying LICENSE file.
-Comments by email are always appreciated.
+
+Comments are always appreciated! Please `open an issue on github`_
+(preferred because it keeps the discussion open) or send me an email.
 
 .. _climlab: https://github.com/brian-rose/climlab
 .. _documentation: http://climlab.readthedocs.io
 .. _`github page`: https://github.com/brian-rose/climlab
+.. _`open an issue on github`: https://github.com/brian-rose/ClimateModeling_courseware/issues
 
 .. |binder| image:: https://mybinder.org/badge.svg
   :target: https://mybinder.org/v2/gh/brian-rose/ClimateModeling_courseware/master
