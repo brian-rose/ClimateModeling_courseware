@@ -6,7 +6,7 @@ dependencies:
   - python
   - numpy
   - matplotlib
-  - xarray<=0.12.1  # until metpy bug is resolved https://github.com/Unidata/MetPy/issues/1077
+  - xarray
   - metpy
   - cartopy
   - sympy
