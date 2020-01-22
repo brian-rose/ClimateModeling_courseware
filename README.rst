@@ -7,6 +7,15 @@ Climate Modeling Courseware
 
 |binder|
 
+
+**PLEASE NOTE this repository is now deprecated!**
+
+As of *January 2020*, I'm distributing my notes in a more "book-like" form known as
+`The Climate Laboratory`_ (powered by `JupyterBook`_). The source can be found in
+`this github repository`_.
+
+You're more likely to find up-to-date content over there.
+
 Quickstart
 --------------
 Just click on the Binder badge above to run these notebooks interactively in the cloud!
@@ -78,6 +87,9 @@ Comments are always appreciated! Please `open an issue on github`_
 .. _documentation: http://climlab.readthedocs.io
 .. _`github page`: https://github.com/brian-rose/climlab
 .. _`open an issue on github`: https://github.com/brian-rose/ClimateModeling_courseware/issues
+.. _`The Climate Laboratory`: https://brian-rose.github.io/ClimateLaboratoryBook
+.. _`this github repository`: https://github.com/brian-rose/ClimateLaboratoryBook
+.. _`JupyterBook`: https://jupyterbook.org
 
 .. |binder| image:: https://mybinder.org/badge.svg
   :target: https://mybinder.org/v2/gh/brian-rose/ClimateModeling_courseware/master
